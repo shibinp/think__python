@@ -1,0 +1,7 @@
+def check_fermt(a,b,c,n):
+	if n>2:
+		if((a**n+b**n)==c**n):
+			return "Holy smokes, Fermat was wrong"
+		else:
+			return"No, that doesn’t work"
+print check_fermt(4,3,5,3)
